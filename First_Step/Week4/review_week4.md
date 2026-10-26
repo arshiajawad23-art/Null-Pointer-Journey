@@ -8,3 +8,7 @@
 - dict structure
 - add item to dict
 - items / keys / values / get
+
+
+###
+- learned methods of list sort / reverse 
