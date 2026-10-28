@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> select: 
+
+        <label for="city">City: </label>
+        <select name="city" id="city">
+            <option value="">choose and select</option>
+            <option value="afg">Afghanistan</option>
+            <option value="tjk">Tajikistan</option>
+            <option value="chn">China</option>
+        </select>
+    </div>
+
+    <h1>grouping tag select</h1>
+    <label for="city">choose and select: </label>
+    <select name="city" id="city">
+        <optgroup label="Middle">
+            <option value="kbl">Kabul</option>
+            <option value="bng">Beijing</option>
+        </optgroup>
+        <optgroup label="south">
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+        </optgroup>
+    </select>
+
+
+    <h2>form grouping </h2>
+
+    <div>
+        <form action="#">
+            <fieldset>
+                <legend>private information</legend>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+            </fieldset>
+            <fieldset>
+                <legend>contact information</legend>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+        </form>
+    </div>
+<br><br><hr><br><br>
+
+    <div>
+        <form action="#">
+            <fieldset>
+               
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+            </fieldset>
+            <fieldset>
+               
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+        </form>
+    </div>
+
+<h3>this is a fieldset: </h3>
+    <fieldset>
+        <legend>legend tag of fieldset</legend>
+    </fieldset>
+<h3>Fieldset</h3>
+<form action="">
+    <fieldset>
+        <legend>legend tag of <fieldset></fieldset></legend> 
+    <input type="text" placeholder="input in fieldset">
+        
+    </fieldset>
+</form>
+<br><br><br><br><br>
+
+<hr>
+<br><br><br><br><br>
+    <div>
+        <form action="#">
+            <fieldset>
+                <legend>private info: </legend>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="enter our name">
+            </fieldset>
+            <fieldset>
+                <legend>contact info: </legend>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+            <fieldset>
+                <legend>gender: </legend>
+                <label for="male">Male</label>&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" id="male">
+                <br>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </fieldset>
+            <fieldset>
+                <legend>comment: </legend>
+                <label for="comment">write your idea: </label><br>
+                <textarea name="comment" id="comment"></textarea>
+            </fieldset>
+        </form>
+    </div>
+
+    <hr><hr>
+    <hr>
+    <hr><br><br><br><br><br>
+
+    <div><h3>important attributes: </h3></div>
+    <div>
+        <input type="text" maxlength="10">
+    <input type="text" minlength="3">
+    <input type="text" readonly>
+    <input type="text" disabled>
+    <input type="text" autofocus>
+    <input type="text" autocomplete="off">
+    <input type="text" autofocus pattern="[0-9]{10}" title="10"><br><br><br><br><br><br><br><br><br><br>
+    <input type="submit" name="submit" value="submit">
+    <br><br>
+    <button>Submit-button</button>
+    </div>
+
+
+</body>
+</html> 

@@ -27,7 +27,7 @@ while True:
     if choice in ["a","1"]:
         name = input("Enter your name: ")
         expense = input("Enter your expense: ")
-        show = exp_dict[name] = expense
+        exp_dict[name] = expense
         with open("expense.json", 'w') as file:
             file.write(json.dumps(exp_dict))
 
@@ -35,7 +35,7 @@ while True:
         try:
             print(f"{name} : {expense}")
         except NameError:
-            print("contact phone haven't numbers please first add with choice 1")
+            print(" no expense found please first add with choice 1")
 
 
     elif choice in ["c","3"]:
